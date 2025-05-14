@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Fazil's Poerfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+<style>
+	body{
+		
+		background-color:#FCF8DB;
+	}
+	h1{
+		color:black;
+		letter-spacing:5px; 
+		width:100%;
+		font-size:3rem;
+		text-align:center;
+		margin:0;
+	}
+	p{
+		margin:0;
+		font-size:28px;
+		color:black;
+		letter-spacing:5px;
+		text-align:center;
+	}
+	span{
+		letter-spacing:5px;
+		color:red;}
+		
+	.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: #004080;*/
+  padding: 10px 20px;
+  color: white;
+}
+
+
+.logo {
+	color:black;
+  font-size: 24px;
+  font-weight: bold;
+}
+	.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+#education {
+  background-color:#FCF8DB;	
+  padding: 50px 20px;
+}
+
+#education h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.education-container {
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.education-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid red;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.education-item h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: black;
+}
+
+.education-item .institution {
+  font-weight: normal;
+  color: #555;
+}
+
+.education-item .year {
+  font-style: italic;
+  color: balck;
+  margin: 5px 0;
+}
+
+.education-item .details {
+  margin-top: 10px;
+  color: #444;
+}
+
+.contact-section {
+  padding: 40px;
+  background-color:#FCF8DB ;
+  text-align: center;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact-section button {
+  padding: 10px;
+  background-color: #0072b1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-section .social-links {
+  margin-top: 20px;
+}
+
+.contact-section .social-links a img {
+  width: 40px;
+  margin: 0 10px;
+}
+
+.skills-section {
+  background-color: #f5f5f5;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.skills-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.skills-category {
+  margin-bottom: 20px;
+}
+
+.skills-category h3 {
+  color: #007acc;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.skills-category p {
+  font-size: 16px;
+  color: #555;
+  margin-left: 10px;
+}
+
+
+
+</style>
+</head>
+<body>
+<section>
+<nav class="navbar">
+<div class="logo">MdF</div>
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#">Skills</a></li>
+ <li><a href="#">Projects</a></li>
+ <li><a href="#contact">Contact</a></li>
+</ul>	
+</nav>
+</section>
+<section>
+<div>
+<h1>MOHAMED <br><span>FAZIL</span></h1>
+<p>Passion-powered. Purpose-driven.</p>
+</div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+    <div class="education-item">
+      <h3>Bachelor of Engineering in Computer Science</h3>
+      <p class="institution">MIET Engineering College, Trichy</p>
+      <p class="year">2018 - 2022</p>
+      <p class="details">Graduated with First Class with 7.8 cgpa.</p>
+    </div>
+
+    <div class="education-item">
+      <h3>HSC</h3>
+      <p class="institution">Crescent Matriculation Higher Secondary School</p>
+      <p class="year">2017 - 2018</p>
+      <p class="details">Specialized in Mathematics and Computer Science stream with 68% marks.</p>
+    </div>
+    
+    <div class="education-item">
+      <h3>SSLC</h3>
+      <p class="institution">Crescent Matriculation Higher Secondary School</p>
+      <p class="year">2015 - 2016</p>
+      <p class="details">Specialized in Mathematics and Computer Science stream with 68% marks.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="skills-section">
+  <h2>Skills</h2>
+  <div class="skills-category">
+    <h3>Frontend</h3>
+    <p>HTML5, CSS3, JavaScript, Bootstrap, Thymeleaf</p>
+  </div>
+  <div class="skills-category">
+    <h3>Backend</h3>
+    <p>Java, Spring Boot, JSP, Servlets</p>
+  </div>
+  <div class="skills-category">
+    <h3>Database</h3>
+    <p>MySQL, JDBC</p>
+  </div>
+  <div class="skills-category">
+    <h3>Tools & Platforms</h3>
+    <p>Git, GitHub, IntelliJ IDEA, Postman</p>
+  </div>
+  <div class="skills-category">
+    <h3>Other</h3>
+    <p>RESTful APIs, MVC, OOP</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  
+  <form id="contactForm">
+    <input type="text" id="name" name="name" placeholder="Your Name" required />
+    <input type="email" id="email" name="email" placeholder="Your Email" required />
+    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="social-links">
+    <a href="mailto:zahirfazil23@gmail.com" target="_blank">
+      <img src="gmail-icon.png" alt="Gmail" />
+    </a>
+    <a href="http://www.linkedin.com/in/mdfazil1304" target="_blank">
+      <img src="linkedin-icon.png" alt="LinkedIn" />
+    </a>
+    <a href="https://www.instagram.com/_fzl_134___" target="_blank">
+      <img src="instagram-icon.png" alt="Instagram" />
+    </a>
+  </div>
+</section>
+
+</body>
+</html>
